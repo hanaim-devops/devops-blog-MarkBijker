@@ -1,5 +1,21 @@
 # Onderzoeksplan
 
-Lees en volg de [workshop-prompt-engineering](https://minordevops.nl/week-5-slack-ops/workshop-onderzoeksplan-prompt-engineering.html).
+## Hoofdvraag
+Hoe kan Grafana worden ingezet voor effectieve monitoring in combinatie met Prometheus en Node Exporter?
 
-Verzin o.a. een titel voor je blog, pas de folder naam hier op aan en gebruik [kebab-case](https://en.toolpage.org/tool/kebabcase).
+## Deelvragen en Onderzoeksmethoden:
+
+Wat is Grafana en wat waar wordt het voor gebruikt?
+Onderzoeksmethode: Literatuuronderzoek
+
+Hoe werken Prometheus en Node Exporter samen om systeemstatistieken te verzamelen?
+Onderzoeksmethode: Literatuuronderzoek
+
+Wat zijn de voordelen van het combineren van Grafana met Prometheus en Node Exporter?
+Onderzoeksmethode: Literatuuronderzoek
+
+Hoe kan een standaarddashboard worden opgezet in Grafana voor systeemmonitoring?
+Onderzoeksmethode: Experiment
+
+Hoe implementeer ik Grafana, Prometheus en Node Exporter in een bestaande DevOps omgeving?
+Onderzoeksmethode: Hands-on experiment

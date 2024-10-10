@@ -76,3 +76,5 @@ De flexibiliteit van Grafana, gecombineerd met de nauwkeurige dataverzameling va
 - HowToGeek.com (Februari, 2022) Geraadpleegd 10 oktober 2024 op [What is Grafana and When Should You Use It?](https://www.howtogeek.com/devops/what-is-grafana-and-when-should-you-use-it/).
 - Grafana.com (z. d.) Geraadpleegd 10 oktober 2024 op [Grafana](https://grafana.com/).
 - Grafana (Node Exporter Dashboard) (Mei, 2024) Geraadpleegd 10 oktober 2024 op [Prometheus](https://grafana.com/grafana/dashboards/1860-node-exporter-full/).
+- Prometheus.io (Node Exporter) (z. d.) Geraadpleegd 10 oktober 2024 op [Node Exporter](https://prometheus.io/docs/guides/node-exporter/).
+- GrafanaResearch (Repository waarin dit onderzoek is uitgevoerd) (z. d.) Geraadpleegd 10 oktober 2024 op [GrafanaResearch](https://github.com/MarkBijker/GrafanaResearch).
