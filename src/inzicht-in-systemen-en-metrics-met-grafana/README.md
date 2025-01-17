@@ -9,15 +9,15 @@
 
 Monitoring van systemen en applicaties is essentieel voor het efficiënt beheren van infrastructuren in de moderne DevOps-omgeving. Of het nu gaat om servers, netwerken of containers, inzicht krijgen in de prestatiegegevens kan het verschil maken tussen een soepel functionerend systeem en urenlang troubleshooting. Hier komt Grafana om de hoek kijken, een krachtige open-source tool die visuele weergaven van metrics biedt om deze eenvoudig te monitoren.
 
-In dit onderzoek wordt de kracht van Grafana als monitoringtool verkend binnen een DevOps-context. Grafana is een open-source platform dat data visualiseert vanuit verschillende bronnen, zoals Prometheus en Loki. Dit onderzoek zal uitleggen hoe Grafana kan worden ingezet voor het monitoren van systeembronnen, inclusief hands-on voorbeelden van configuraties en gebruik. Specifieke onderdelen zoals codevoorbeelden, configuraties en grafieken worden besproken om een praktisch inzicht te geven in hoe Grafana in te zetten.
+In dit onderzoek wordt de kracht van Grafana als monitoringtool verkend binnen een DevOps-context. Grafana is een open-source platform dat data visualiseert vanuit verschillende bronnen (Grafana Labs, 2022), zoals Prometheus en Loki. Dit onderzoek zal uitleggen hoe Grafana kan worden ingezet voor het monitoren van systeembronnen, inclusief hands-on voorbeelden van configuraties en gebruik. Specifieke onderdelen zoals codevoorbeelden, configuraties en grafieken worden besproken om een praktisch inzicht te geven in hoe Grafana in te zetten.
 
 ## Wat is Grafana?
 
-Grafana is een open-source analytics- en monitoringplatform, ontworpen om real-time dashboards te leveren van verschillende datastromen. Het is sterk in zijn mogelijkheden om gegevens uit verschillende bronnen te combineren, zoals databases, monitoring tools, en meer. Gebruikers kunnen aangepaste dashboards maken om data-inzichten te vergaren die specifiek zijn voor hun infrastructuur of applicaties.
-
+Grafana is een open-source analytics- en monitoringplatform, ontworpen om real-time dashboards te leveren van verschillende datastromen. Zoals uitgelegd in de officiële documentatie van Grafana (Grafana Labs, z.d.), blinkt het platform uit in zijn mogelijkheden om gegevens uit verschillende bronnen te combineren, zoals databases, monitoringtools, en meer. Gebruikers kunnen aangepaste dashboards maken om data-inzichten te vergaren die specifiek zijn voor hun infrastructuur of applicaties.
 ## Waarom Grafana voor Monitoring?
 
-Een van de belangrijkste voordelen van Grafana is de mogelijkheid om complexe metrics op een begrijpelijke en visueel aantrekkelijke manier weer te geven. Het ondersteunt verschillende datasources, waaronder Prometheus, en stelt gebruikers in staat om in te zoomen op specifieke tijdstippen en gebeurtenissen.
+Een van de belangrijkste voordelen van Grafana is de mogelijkheid om complexe metrics op een begrijpelijke en visueel aantrekkelijke manier weer te geven. Zoals beschreven in een blog door Walker (2022), biedt Grafana krachtige dashboards die gebruikers in staat stellen om cruciale datapatronen te analyseren. Het ondersteunt verschillende datasources, waaronder Prometheus, en stelt gebruikers in staat om in te zoomen op specifieke tijdstippen en gebeurtenissen (Grafana Labs, 2022).
+
 
 <img src="plaatjes/grafana_graphs.png" width="500" alt="voorbeeld dashboard van Grafana" title="Voorbeeld dashboard van Grafana">
 
@@ -41,7 +41,7 @@ Om systeemmetrics van een Linux-server te verzamelen, moeten we Node Exporter in
 
 <img src="plaatjes/prometheus_logo.jpg" width="150" align="right" alt="Logo van Prometheus" title="Logo van Prometheus">
 
-Vervolgens installeren we Prometheus, een monitoring tool die systeemmetrics verzamelt en beschikbaar stelt voor visualisatie in Grafana. Deze stap zorgt ervoor dat de verzamelde gegevens vanuit Node Exporter naar Prometheus worden gestuurd. Gebruik de volgende link om Prometheus te installeren:
+Vervolgens installeren we Prometheus, een monitoring tool die systeemmetrics verzamelt en beschikbaar stelt voor visualisatie in Grafana. Zoals vermeld in de officiële documentatie van Prometheus, is dit een krachtige tool die metrics efficiënt opslaat en verwerkt (Prometheus.io, z.d.). Deze stap zorgt ervoor dat de verzamelde gegevens vanuit Node Exporter naar Prometheus worden gestuurd. Gebruik de volgende link om Prometheus te installeren:
 
 [Prometheus Installeren](https://prometheus.io/download/#:~:text=amd64-,prometheus,-The%20Prometheus%20monitoring)
 
@@ -73,8 +73,9 @@ Met Grafana heb je de mogelijkheid om complexe systeem- en applicatiemetrics inz
 De flexibiliteit van Grafana, gecombineerd met de nauwkeurige dataverzameling van Prometheus, maakt dit duo ideaal voor DevOps-teams die op zoek zijn naar een oplossing voor monitoring. Of je nu kleine serveromgevingen of grote, gedistribueerde systemen beheert, Grafana biedt de tools om metrics effectief te visualiseren en problemen proactief aan te pakken.
 
 ## Bronnen
-- HowToGeek.com (Februari, 2022) Geraadpleegd 10 oktober 2024 op [What is Grafana and When Should You Use It?](https://www.howtogeek.com/devops/what-is-grafana-and-when-should-you-use-it/).
-- Grafana.com (z. d.) Geraadpleegd 10 oktober 2024 op [Grafana](https://grafana.com/).
-- Grafana (Node Exporter Dashboard) (Mei, 2024) Geraadpleegd 10 oktober 2024 op [Prometheus](https://grafana.com/grafana/dashboards/1860-node-exporter-full/).
-- Prometheus.io (Node Exporter) (z. d.) Geraadpleegd 10 oktober 2024 op [Node Exporter](https://prometheus.io/docs/guides/node-exporter/).
-- GrafanaResearch (Repository waarin dit onderzoek is uitgevoerd) (z. d.) Geraadpleegd 10 oktober 2024 op [GrafanaResearch](https://github.com/MarkBijker/GrafanaResearch).
+- Walker, J. (2022, February 8). Geraadpleegd 10 oktober 2024 van _[What is Grafana and When Should You Use It? How-To Geek.](https://www.howtogeek.com/devops/what-is-grafana-and-when-should-you-use-it/)_ 
+- Grafana Labs. (2022, January 19). Geraadpleegd op 10 oktober 2024, van _[A beginner's guide to network monitoring with Grafana and Prometheus](https://grafana.com/blog/2022/01/19/a-beginners-guide-to-network-monitoring-with-grafana-and-prometheus/ )._
+- Grafana Node Exporter Dashboard (2024, May 18). Geraadpleegd 10 oktober 2024, van [Grafana Node Exporter Full](https://grafana.com/grafana/dashboards/1860-node-exporter-full/).
+- Prometheus.io. (z.d.). Geraadpleegd op 10 oktober 2024, van _[Introduction to Prometheus](https://prometheus.io/docs/introduction/overview/)_
+- Grafana Labs. (z.d.). Introduction to Grafana. Geraadpleegd op 10 oktober 2024, van _[About Grafana](https://grafana.com/docs/grafana/latest/introduction/)_
+- GrafanaResearch (Repository waarin dit onderzoek is uitgevoerd) (2024, October) Geraadpleegd 10 oktober 2024 op _[GrafanaResearch](https://github.com/MarkBijker/GrafanaResearch)._
